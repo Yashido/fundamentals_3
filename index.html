@@ -12,9 +12,13 @@
 
         <script>
             
+
+            /*
             var number = prompt("Pick a number");
             var numbertwo = prompt("Pick another number");
+            */
 
+            /*
             function add7() {
                 var newNumber = parseInt(number);
                 var addition = newNumber + 7;
@@ -22,7 +26,6 @@
                 return addition;
             }
             console.log(add7(number));
-
 
             function multiply() {
                 var newNumber = parseInt(number);
@@ -32,8 +35,25 @@
                 return mult;
             }
             console.log(multiply(number,numbertwo));
+            */
 
-            
+            /*
+            var word = prompt("What can I capitalize for you?","");
+            function capitalize() {
+                var cap = word.charAt(0).toUpperCase();
+                var comb = cap + word.slice(1);
+                return comb;
+                
+            }
+            console.log(capitalize(word));
+            */
+
+            var word = prompt("Please pick a word to get the last character?");
+            function lastLetter() {
+                var lastLet = word.charAt(word.length-1);
+                return lastLet;
+            }
+            console.log(lastLetter(word));
         </script>
 
 
